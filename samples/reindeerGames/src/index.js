@@ -21,61 +21,60 @@
  */
 var questions = [
     {
-        "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-            "13,000",
-            "1,200",
-            "5,000",
-            "700",
-            "1,000",
-            "120,000"
+        "What team did Babe Ruth play for before joining the Boston Red Sox?": [
+            "New York Yankees",
+            "Baltimore Orioles",
+            "Boston Braves",
+            "Cincinnati Reds"
+            
         ]
     },
     {
-        "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in:": [
-            "Japan",
-            "United States",
-            "Finland",
-            "Germany"
+        "What team moved to D.C. to become the Washington Nationals in 2005?": [
+            "Brooklyn Dodgers",
+            "Tokyo Giants",
+            "Kansas City Monarachs",
+            "Montreal Expos"
         ]
     },
     {
-        "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-            "Wunorse Openslae",
-            "Alabaster Snowball",
-            "Bushy Evergreen",
-            "Pepper Minstix"
+        "Who has played the most consecutive games of baseball, breaking Lou Gehrig's record on September 6, 1995?": [
+            "Cal Ripken, Jr.",
+            "Mark McGuire",
+            "Barry Bonds",
+            "Paul Molitor"
         ]
     },
     {
-        "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be:": [
-            "Girls",
-            "Boys",
-            "Girls and boys",
-            "No way to tell"
+        "What 1929 feat did Lee Richmond perform in a Major League Baseball first?": [
+            "Unassisted Triple Play?",
+            "Stole Home",
+            "Pitched a Perfect Game",
+            "Ate a Hot Dog in the Dugout"
         ]
     },
     {
-        "What do Reindeer eat?": [
-            "Lichen",
-            "Grasses",
-            "Leaves",
-            "Berries"
+        "Before playing in the majors, Jackie Robinson played with the minor league Montreal Royals, the top farm club of which organization?": [
+            "Milwaukee Brewers",
+            "Chicago White Sox",
+            "St. Louis Cardinals",
+            "Brooklyn Dodgers"
         ]
     },
     {
-        "What of the following is not true?": [
-            "Caribou live on all continents",
-            "Both reindeer and Caribou are the same species",
-            "Caribou are bigger than reindeer",
-            "Reindeer live in Scandinavia and Russia"
+        "What up-and-coming star player saw his first World Series with the Yankees in 1936 as Babe Ruth's replacement?": [
+            "Joe DiMaggio",
+            "Lou Gehrig",
+            "Freddie Fitzsimmons",
+            "Carl Hubbell"
         ]
     },
     {
-        "In what year did Rudolph make his television debut?": [
-            "1964",
-            "1979",
-            "2000",
-            "1956"
+        "What is the oldest active ball park in Major League Baseball?": [
+            "Miller Park",
+            "Wrigley Field",
+            "Fenway Park",
+            "Yankee Stadium"
         ]
     },
     {
@@ -87,179 +86,99 @@ var questions = [
         ]
     },
     {
-        "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-            "Montgomery Ward",
-            "Sears",
-            "Macys",
-            "Kmart"
+        "What player was accused of using too much pine tar on his bat on July 24, 1983, causing a game-winning home run to be nullified?": [
+            "George Brett",
+            "Robin Yount",
+            "Rich Gossage",
+            "Gaylord Perry"
         ]
     },
     {
-        "Santa's reindeer named Donner was originally named what?": [
-            "Dunder",
-            "Donny",
-            "Dweedle",
-            "Dreamy"
+        "What basketball great made the surprising decision to switch sports, signing a minor league baseball contract with the Chicago White Sox in 1994?": [
+            "Patrick Ewing",
+            "Karl Malone",
+            "Shaq",
+            "Michael Jordan"
         ]
     },
     {
-        "Who invented the story of Rudolph?": [
-            "Robert May",
-            "Johnny Marks",
-            "Santa",
-            "J.K. Rowling"
+        "What baseball announcer was famous for his signature phrase, Holy Cow!?": [
+            "Vin Scully",
+            "Harry Carey",
+            "Joe Garagiola",
+            "Joe Buck"
         ]
     },
     {
-        "In what location will you not find reindeer?": [
-            "North Pole",
-            "Lapland",
-            "Korvatunturi mountain",
-            "Finland"
+        "Which team hosted the infamous Disco Demolition Night promotional event on July 12, 1979?": [
+            "Chicago White Sox",
+            "Minnesota Twins",
+            "New York Mets",
+            "California Angels"
         ]
     },
     {
-        "What Makes Santa's Reindeer Fly?": [
-            "Magical Reindeer Dust",
-            "Fusion",
-            "Amanita muscaria",
-            "Elves"
+        "What country has contributed the most players to Major League Baseball outside of the United States?": [
+            "Cuba",
+            "Japan",
+            "Dominican Republic",
+            "Mexico"
         ]
     },
     {
-        "Including Rudolph, how many reindeer hooves are there?": [
-            "36",
-            "24",
-            "16",
-            "8"
+        "Who is the only pitcher in Major League Baseball to win a World Series games in three different decades?": [
+            "Bob Welch",
+            "Whitey Ford",
+            "Jim Palmer",
+            "Johnny Podres"
         ]
     },
     {
-        "Santa only has one female reindeer. Which one is it?": [
-            "Vixen",
-            "Clarice",
-            "Cupid",
-            "Cupid"
+        "What pitcher ended Joe DiMaggio's 56-game hitting streak?": [
+            "Jim Bagby",
+            "Mel Harder",
+            "Al Smith",
+            "Hal Newhouser"
         ]
     },
     {
-        "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-            "Sam",
-            "Frosty",
-            "Burl",
-            "Snowy"
+        "In the mythology surrounding the Chicago Cubs, what curse is responsible for the team not reaching the World Series since 1945?": [
+            "The curse of the Billy Goat",
+            "The Curse of the Bambino",
+            "The Steve Bartman Curse",
+            "The Second City Curse"
         ]
     },
     {
-        "What was Rudolph's father's name?": [
-            "Donner",
-            "Dasher",
-            "Blixen",
-            "Comet"
+        "Who was the only member of the Cincinnati Reds' Big Red Machine of the 1970's to be born and raised in Cincinnati?": [
+            "Ken Griffey, Sr.",
+            "Dave Concepcion",
+            "George Foster",
+            "Pete Rose"
         ]
     },
     {
-        "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-            "Comet",
-            "Blixen",
-            "Donner",
-            "Dasher"
+        "1998 saw a race between the St. Louis Cardinals' Mark McGwire and the Chicago Cubs' Sammy Sosa to break which player's 61 home run record?": [
+            "Babe Ruth",
+            "Roger Maris",
+            "Hank Aaron",
+            "Frank Thomas"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-            "Fireball",
-            "Clarice",
-            "Jumper",
-            "Vixen"
+        "What baseball great is known for such colorful sayings as It ain't over till it's over.": [
+            "Wade Boggs",
+            "Yogi Berra",
+            "Hank Aaron",
+            "Roger Clemens"
         ]
     },
     {
-        "In the 1964 movie, How did Donner, Rudolph's father, try to hide Rudolph's nose?": [
-            "Black mud",
-            "Bag",
-            "Pillow case",
-            "Sock"
-        ]
-    },
-    {
-        "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-            "Dentist",
-            "Reindeer",
-            "Toy maker",
-            "Candlestick maker"
-        ]
-    },
-    {
-        "In the 1964 movie,what was the Bumble's one weakness?": [
-            "Could not swim",
-            "Always hungry",
-            "Candy canes",
-            "Cross eyed"
-        ]
-    },
-    {
-        "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-            "Peppermint",
-            "Gold",
-            "India",
-            "Polar Bears"
-        ]
-    },
-    {
-        "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-            "Square wheels",
-            "No Engine",
-            "Paint does not match",
-            "It does not toot"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the Jack in the Box?": [
-            "Charlie",
-            "Sam",
-            "Billy",
-            "Jack"
-        ]
-    },
-    {
-        "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-            "Storm",
-            "No snow",
-            "No toys",
-            "The Reindeer were sick"
-        ]
-    },
-    {
-        "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-            "Oink",
-            "Growl",
-            "Bark",
-            "Meow"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the prospector?": [
-            "Yukon Cornelius",
-            "Slider Sam",
-            "Bumble",
-            "Jack"
-        ]
-    },
-    {
-        "How far do reindeer travel when they migrate?": [
-            "3000 miles",
-            "700 miles",
-            "500 miles",
-            "0 miles"
-        ]
-    },
-    {
-        "How fast can a reindeer run?": [
-            "48 miles per hour",
-            "17 miles per hour",
-            "19 miles per hour",
-            "14 miles per hour"
+        "Where is the National Baseball Hall of Fame & Museum located?": [
+            "Cooperstown, NY",
+            "Memphis, TN",
+            "Oklahoma City, OK",
+            "Cleveland, OH"
         ]
     }
 ];
