@@ -14,8 +14,8 @@
  *
  * Examples:
  * One-shot model:
- *  User: "Alexa, ask Space Geek for a space fact"
- *  Alexa: "Here's your space fact: ..."
+ *  User: "Alexa, ask Las Vegas Nut for a Las Vegas fact"
+ *  Alexa: "Here's your Las Vegas fact: ..."
  */
 
 /**
@@ -24,9 +24,9 @@
 var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 
 /**
- * Array containing space facts.
+ * Array containing Las Vegas facts.
  */
-var FACTS = [
+var VEGAS_FACTS = [
     "42312216 people visited Las Vegas last year",
     "5891151 people attended a convention in Las Vegas last year",
     "Clark County has 9.6 billion dollars in gaming revenue last year.",
@@ -51,7 +51,7 @@ var FACTS = [
 var AlexaSkill = require('./AlexaSkill');
 
 /**
- * SpaceGeek is a child of AlexaSkill.
+ * Las VegasGeek is a child of AlexaSkill.
  * To read more about inheritance in JavaScript, see the link below.
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#Inheritance
@@ -88,7 +88,7 @@ Fact.prototype.intentHandlers = {
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        response.ask("You can say tell me a space fact, or, you can say exit... What can I help you with?", "What can I help you with?");
+        response.ask("You can say tell me a Las Vegas fact, or, you can say exit... What can I help you with?", "What can I help you with?");
     },
 
     "AMAZON.StopIntent": function (intent, session, response) {
@@ -106,9 +106,9 @@ Fact.prototype.intentHandlers = {
  * Gets a random new fact from the list and returns to the user.
  */
 function handleNewFactRequest(response) {
-    // Get a random space fact from the space facts list
-    var factIndex = Math.floor(Math.random() * FACTS.length);
-    var randomFact = FACTS[factIndex];
+    // Get a random Las Vegas fact from the Las Vegas facts list
+    var factIndex = Math.floor(Math.random() * VEGAS_FACTS.length);
+    var randomFact = VEGAS_FACTS[factIndex];
 
     // Create speech output
     var speechOutput = "Here's your fact: " + randomFact;
@@ -118,7 +118,7 @@ function handleNewFactRequest(response) {
 
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
-    // Create an instance of the SpaceGeek skill.
+    // Create an instance of the Las VegasGeek skill.
     var fact = new Fact();
     fact.execute(event, context);
 };
