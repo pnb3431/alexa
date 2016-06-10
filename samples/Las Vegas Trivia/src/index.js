@@ -40,7 +40,24 @@ var FACTS = [
     "16 percent of visitors, travel to Las Vegas internationally.",
     "The hotel occupancy rate in Las Vegas is almost 90 percent.",
     "The City of Las Vegas was incorporated in nineteen eleven.",
-    "In nineteen thirty one Gambling was legalized in Nevada."
+    "There’s estimated to be at least 1,000 people living beneath Vegas in underground tunnels.",
+    "Michael Jackson had plans to build a 50 foot tall moon walking robot replica of himself to roam the Las Vegas desert. It was intended to be an advertisement for a planned 2005 comeback.",
+    "In nineteen thirty one Gambling was legalized in Nevada.",
+    "It would take 288 years for one person to spend one night in every hotel room in Las Vegas.",
+    "Contrary to popular belief, prostitution in Las Vegas is not legal.",
+    "According to suppliers, Vegas Bingo players’ favorite color ink daubers are purple.",
+    "Water structures in Las Vegas, like fountains and man-made lakes, use something called grey-water, which is recycled water from sinks, bathtubs and showers.",
+    "Las Vegas is informally known as Hawaii’s 9th island, due to the city’s large community of Hawaiians.",
+    "Approximately 34% of thefts and cheating in Las Vegas casinos are committed by staff.",
+    "Tangiers Casino used in Martin Scorcese’s film, “Casino” never actually existed.",
+    "At 1,149 feet, the Stratosphere Las Vegas is the tallest freestanding observation tower in the nation.",
+    "Mobster Bugsy Siegel named his casino, The Flamingo, after his showgirl girlfriend, whose long legs garnered her the same name.",
+    "The Luxor Las Vegas’ Sphinx, a re-creation of the Great Sphinx of Giza, is 101 feet high and larger than the original.",
+    "Las Vegas is translated to “the meadows” in Spanish.",
+    "Las Vegas is home to more than half of the 20 largest hotels in the world.",
+    "McCarran International Airport is the seventh busiest airport in the United States and North America.",
+    "Annual rainfall in Las Vegas totals slightly more than four inches.",
+    "Downtown's Golden Gate is the oldest continuously operating hotel and casino in Las Vegas; it opened in 1906 as Hotel Nevada."
     
     
 ];
