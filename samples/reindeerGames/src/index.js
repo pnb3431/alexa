@@ -22,23 +22,25 @@
 var questions = [
     {
         "What team did Babe Ruth play for before joining the Boston Red Sox?": [
-            "New York Yankees",
             "Baltimore Orioles",
-            "Boston Braves",
-            "Cincinnati Reds"
+            "Cincinnati Reds",
+            "New York Yankees",
+            "Boston Braves"
+            
             
         ]
     },
     {
-        "What team moved to D.C. to become the Washington Nationals in 2005?": [
+        "What team moved to D.C. to become the Washington Nationals in Two Thousand five?": [
+            "Montreal Expos",
             "Brooklyn Dodgers",
             "Tokyo Giants",
-            "Kansas City Monarachs",
-            "Montreal Expos"
+            "Kansas City Monarachs"
+            
         ]
     },
     {
-        "Who has played the most consecutive games of baseball, breaking Lou Gehrig's record on September 6, 1995?": [
+        "Who has played the most consecutive games of baseball, breaking Lou Gehrig's record on September 6th, nineteen Ninty Five?": [
             "Cal Ripken, Jr.",
             "Mark McGuire",
             "Barry Bonds",
@@ -46,23 +48,24 @@ var questions = [
         ]
     },
     {
-        "What 1929 feat did Lee Richmond perform in a Major League Baseball first?": [
+        "What nineteen twenty nine feat did Lee Richmond perform in a Major League Baseball first?": [
+            "Pitched a Perfect Game",
             "Unassisted Triple Play?",
             "Stole Home",
-            "Pitched a Perfect Game",
             "Ate a Hot Dog in the Dugout"
         ]
     },
     {
         "Before playing in the majors, Jackie Robinson played with the minor league Montreal Royals, the top farm club of which organization?": [
+            "Brooklyn Dodgers",
             "Milwaukee Brewers",
             "Chicago White Sox",
-            "St. Louis Cardinals",
-            "Brooklyn Dodgers"
+            "St. Louis Cardinals"
+            
         ]
     },
     {
-        "What up-and-coming star player saw his first World Series with the Yankees in 1936 as Babe Ruth's replacement?": [
+        "What up-and-coming star player saw his first World Series with the Yankees in nineteen thirty six as Babe Ruth's replacement?": [
             "Joe DiMaggio",
             "Lou Gehrig",
             "Freddie Fitzsimmons",
@@ -71,22 +74,14 @@ var questions = [
     },
     {
         "What is the oldest active ball park in Major League Baseball?": [
+            "Fenway Park",
             "Miller Park",
             "Wrigley Field",
-            "Fenway Park",
             "Yankee Stadium"
         ]
     },
     {
-        "Who was the voice of Rudolph in the 1964 classic?": [
-            "Billie Mae Richards",
-            "Burl Ives",
-            "Paul Soles",
-            "Lady Gaga"
-        ]
-    },
-    {
-        "What player was accused of using too much pine tar on his bat on July 24, 1983, causing a game-winning home run to be nullified?": [
+        "What player was accused of using too much pine tar on his bat on July 24, nineteen eighty three, causing a game-winning home run to be nullified?": [
             "George Brett",
             "Robin Yount",
             "Rich Gossage",
@@ -95,22 +90,23 @@ var questions = [
     },
     {
         "What basketball great made the surprising decision to switch sports, signing a minor league baseball contract with the Chicago White Sox in 1994?": [
+            "Michael Jordan",
             "Patrick Ewing",
             "Karl Malone",
-            "Shaq",
-            "Michael Jordan"
+            "Shaq"
+            
         ]
     },
     {
         "What baseball announcer was famous for his signature phrase, Holy Cow!?": [
-            "Vin Scully",
             "Harry Carey",
+            "Vin Scully",
             "Joe Garagiola",
             "Joe Buck"
         ]
     },
     {
-        "Which team hosted the infamous Disco Demolition Night promotional event on July 12, 1979?": [
+        "Which team hosted the infamous Disco Demolition Night promotional event on July 12, nineteen seventy nine?": [
             "Chicago White Sox",
             "Minnesota Twins",
             "New York Mets",
@@ -119,17 +115,17 @@ var questions = [
     },
     {
         "What country has contributed the most players to Major League Baseball outside of the United States?": [
+            "Dominican Republic",
             "Cuba",
             "Japan",
-            "Dominican Republic",
             "Mexico"
         ]
     },
     {
         "Who is the only pitcher in Major League Baseball to win a World Series games in three different decades?": [
+            "Jim Palmer",
             "Bob Welch",
             "Whitey Ford",
-            "Jim Palmer",
             "Johnny Podres"
         ]
     },
@@ -150,25 +146,26 @@ var questions = [
         ]
     },
     {
-        "Who was the only member of the Cincinnati Reds' Big Red Machine of the 1970's to be born and raised in Cincinnati?": [
+        "Who was the only member of the Cincinnati Reds' Big Red Machine of the nineteen seventies to be born and raised in Cincinnati?": [
+            "Pete Rose",
             "Ken Griffey, Sr.",
             "Dave Concepcion",
-            "George Foster",
-            "Pete Rose"
+            "George Foster"
+            
         ]
     },
     {
-        "1998 saw a race between the St. Louis Cardinals' Mark McGwire and the Chicago Cubs' Sammy Sosa to break which player's 61 home run record?": [
-            "Babe Ruth",
+        "Ninetenn ninety eight saw a race between the St. Louis Cardinals' Mark McGwire and the Chicago Cubs' Sammy Sosa to break which player's 61 home run record?": [
             "Roger Maris",
+            "Babe Ruth",
             "Hank Aaron",
             "Frank Thomas"
         ]
     },
     {
         "What baseball great is known for such colorful sayings as It ain't over till it's over.": [
-            "Wade Boggs",
             "Yogi Berra",
+            "Wade Boggs",
             "Hank Aaron",
             "Roger Clemens"
         ]
@@ -177,7 +174,7 @@ var questions = [
         "Where is the National Baseball Hall of Fame & Museum located?": [
             "Cooperstown, NY",
             "Memphis, TN",
-            "Oklahoma City, OK",
+            "Oklahoma City, Oklahoma",
             "Cleveland, OH"
         ]
     }
@@ -304,7 +301,7 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 var ANSWER_COUNT = 4;
 var GAME_LENGTH = 5;
-var CARD_TITLE = "Trivia"; // Be sure to change this for your skill.
+var CARD_TITLE = "Baseball Triva"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
