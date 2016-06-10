@@ -27,19 +27,22 @@ var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-u
  * Array containing space facts.
  */
 var FACTS = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "42312216 people visited Las Vegas last year",
+    "5891151 people attended a convention in Las Vegas last year",
+    "Clark County has 9.6 billion dollars in gaming revenue last year.",
+    "The Las Vegas Strip had 6.3 billion in gaming revenue last year.",
+    "The average Las Vegas Visitor has a gambling budget of five hundred seventy nine dollars.",
+    "The average nightly cost of a hotel room in Las Vegas is one hundred twenty dollars.",
+    "There are over one hundred twenty thousand hotel rooms in Las Vegas.",
+    "The average visitor stays 3.4 nights in Las Vegas",
+    "8 percent of visitors travel to Las Vegas, with someone younger then 21",
+    "16 percent of visitors, are first time visitors of Las Vegas.",
+    "16 percent of visitors, travel to Las Vegas internationally.",
+    "The hotel occupancy rate in Las Vegas is almost 90 percent.",
+    "The City of Las Vegas was incorporated in nineteen eleven.",
+    "In nineteen thirty one Gambling was legalized in Nevada."
+    
+    
 ];
 
 /**
