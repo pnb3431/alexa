@@ -29,7 +29,7 @@ var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-u
 var FACTS = [
     "42312216 people visited Las Vegas last year",
     "5891151 people attended a convention in Las Vegas last year",
-    "Clark County has 9.6 billion dollars in gaming revenue last year.",
+    "Clark County had 9.6 billion dollars in gaming revenue last year.",
     "The Las Vegas Strip had 6.3 billion in gaming revenue last year.",
     "The average Las Vegas Visitor has a gambling budget of five hundred seventy nine dollars.",
     "The average nightly cost of a hotel room in Las Vegas is one hundred twenty dollars.",
